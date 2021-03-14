@@ -1,6 +1,11 @@
-comment on column SAP.TEAM.TEAMID is 'TEAMID';
+create column table SAP.TEAM (
+   TEAMID               BIGINT               not null,
+   MANAGERID            BIGINT               not null,
+   TEAMNAME             NVARCHAR(120),
+   primary key cpbtree (TEAMID)
+);
 
-comment on column SAP.TEAM.MANAGERID is 'MANAGERID';
-
-comment on column SAP.TEAM.TEAMNAME is 'TEAMNAME';
+alter table SAP.TEAM
+   add constraint FK_TEAM_REFERENCE_MANAGER foreign key (MANAGERID)
+      references SAP.PERSON (PERSONID) on delete restrict on update restrict;
 
