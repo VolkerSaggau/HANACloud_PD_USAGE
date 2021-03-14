@@ -1,0 +1,23 @@
+{
+   "format_version" : 1,   
+   "imports" :[
+      {
+         "target_table": "PERSON",
+         "source_data": {
+            "data_type": "CSV",
+            "file_name": "PERSON.csv", 
+            "has_header": false,
+            "type_config": {
+               "delimiter": ","
+            }
+         },
+         "include_filter" : [],
+         "column_mappings": {
+            "PERSONID" : 1,
+            "FIRSTNAME" : 2,
+            "LNAME" : 3
+         
+         }
+      }
+   ]
+}
