@@ -1,0 +1,23 @@
+{
+   "format_version" : 1,   
+   "imports" :[
+      {
+         "target_table": "TEAM",
+         "source_data": {
+            "data_type": "CSV",
+            "file_name": "TEAM.csv", 
+            "has_header": false,
+            "type_config": {
+               "delimiter": ","
+            }
+         },
+         "include_filter" : [],
+         "column_mappings": {
+            "TEAMID" : 1,
+            "MANAGERID" : 2,
+            "TEAMNAME" : 3
+         
+         }
+      }
+   ]
+}
