@@ -16,7 +16,7 @@
             "FIRSTNAME" : 2,
             "LNAME" : 3
          
-         }
+         },
          "import_settings" : { 
             "include_filter" : []
          }
