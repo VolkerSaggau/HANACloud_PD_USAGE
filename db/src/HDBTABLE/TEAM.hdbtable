@@ -4,5 +4,4 @@ column table "TEAM" (
    "TEAMNAME"  NVARCHAR(120)
 , primary key  ( 
      "TEAMID")
-)EAMID")
 )
