@@ -14,7 +14,7 @@
          "column_mappings": {
             "PERSONID" : 1,
             "FIRSTNAME" : 2,
-            "LNAME" : 3
+            "LASTNAME" : 3
          
          },
          "import_settings" : { 
