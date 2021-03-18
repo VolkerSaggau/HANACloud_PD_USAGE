@@ -17,3 +17,4 @@ Functions that are not implemented
 ### Known Issues
 - HDBTABLEDATA is intended for application logic not for customer data and are used typical in an HDBTABLE construct ( no need for migration efforts )
 
+- In the compare dialog of PowerDesigenr you have to deselect the migration objects from the comparism. Otherwise the difference is not properly build
