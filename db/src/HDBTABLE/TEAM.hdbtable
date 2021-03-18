@@ -1,0 +1,7 @@
+column table "TEAM" (
+   "TEAMID"  BIGINT  NOT NULL,
+   "MANAGERID"  BIGINT  NOT NULL,
+   "TEAMNAME"  NVARCHAR(120)
+, primary key  ( 
+     "TEAMID")
+)

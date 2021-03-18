@@ -11,12 +11,14 @@
                "delimiter": ","
             }
          },
-         "include_filter" : [],
          "column_mappings": {
             "PERSONID" : 1,
             "FIRSTNAME" : 2,
-            "LASTNAME" : 3
+            "LNAME" : 3
          
+         }
+         "import_settings" : { 
+            "include_filter" : []
          }
       }
    ]

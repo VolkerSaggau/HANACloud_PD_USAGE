@@ -11,12 +11,14 @@
                "delimiter": ","
             }
          },
-         "include_filter" : [],
          "column_mappings": {
             "TEAMID" : 1,
             "MANAGERID" : 2,
             "TEAMNAME" : 3
          
+         }
+         "import_settings" : { 
+            "include_filter" : []
          }
       }
    ]
