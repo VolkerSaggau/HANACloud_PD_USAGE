@@ -1,0 +1,7 @@
+column table "MEMBERSHIP" (
+   "TEAMID"  BIGINT  NOT NULL,
+   "PERSONID"  BIGINT  NOT NULL
+, primary key  ( 
+     "TEAMID",
+     "PERSONID")
+)
